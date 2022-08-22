@@ -1,0 +1,29 @@
+or create a new repository on the command line
+echo "# JAVAFSD" >> README.md
+git init
+git add .
+(When, there is . it will add all the files, to add any particular single file we 
+will write the file name)
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/95prashar/JAVAFSD.git
+git push -u origin main
+
+…or push an existing repository from the command line
+(One Time Activity)
+git remote add origin https://github.com/95prashar/JAVAFSD.git
+(One Time Activity)
+git branch -M main
+(Everytime we have to do it to send from local git to github)
+git push -u origin main
+
+…or import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+
+Personal access tokens - For 90 Day's - 22/08/2022 to 
+ 
+Tokens you have generated that can be used to access the GitHub API.
+
+Make sure to copy your personal access token now. You won’t be able to see it again!
+ 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 
